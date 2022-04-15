@@ -1,8 +1,8 @@
 .navigation-clean {
-  background: var(--yellow);
+  background: linear-gradient(#190836 32%, #000000), #190836;
   padding-top: .75rem;
   padding-bottom: .75rem;
-  color: #333;
+  color: #ffffff;
   border-radius: 0;
   box-shadow: none;
   border: none;
@@ -42,7 +42,7 @@
 }
 
 .navigation-clean.navbar-light .navbar-nav .nav-link.active, .navigation-clean.navbar-light .navbar-nav .nav-link.active:focus, .navigation-clean.navbar-light .navbar-nav .nav-link.active:hover {
-  color: #8f8f8f;
+  color: #ffffff;
   box-shadow: none;
   background: none;
   pointer-events: none;
@@ -54,7 +54,7 @@
 }
 
 .navigation-clean.navbar-light .navbar-nav .nav-link {
-  color: #465765;
+  color: #d5e8f8;
 }
 
 .navigation-clean.navbar-light .navbar-nav .nav-link:focus, .navigation-clean.navbar-light .navbar-nav .nav-link:hover {
@@ -81,7 +81,7 @@
 
 .top-nav-div {
   height: 35px;
-  background: #000000;
+  background: #190836;
 }
 
 .top-nav-container {
@@ -103,5 +103,18 @@
 
 .icon.ion-social-instagram {
   font-size: 20px;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-item {
+  font-family: Poppins, sans-serif;
+  color: rgb(255,255,255);
+}
+
+.top-nav-para {
+  font-family: Poppins, sans-serif;
 }
 
