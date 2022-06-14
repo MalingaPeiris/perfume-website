@@ -170,3 +170,44 @@
   background: #542166;
 }
 
+.types-container {
+  margin-bottom: 150px;
+}
+
+.type-col-1 {
+  height: 600px;
+}
+
+.type-img {
+  position: absolute;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.type-img:hover {
+  position: absolute;
+  border-radius: 10px;
+  object-fit: cover;
+  filter: blur(2px);
+}
+
+.col-pad {
+  padding: 0;
+  overflow: hidden;
+}
+
+.type-link {
+  position: absolute;
+  width: 100%;
+}
+
+.type-heading {
+  z-index: 1;
+  width: 150px;
+  height: 100%;
+}
+
+.type-col-2 {
+  height: 100%;
+}
+
