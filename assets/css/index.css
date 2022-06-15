@@ -5,7 +5,7 @@
 }
 
 .landing-div {
-  background: linear-gradient(rgba(0,0,0,0.4) 0%, white 100%), url("../../assets/img/perfume-bg.jpg") center / cover no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.4) 0%, white 100%), url("../../assets/img/25.jpg") center / cover no-repeat;
   height: 80vh;
   overflow-x: hidden;
 }
