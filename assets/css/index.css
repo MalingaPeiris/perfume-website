@@ -109,6 +109,7 @@
 .index-hr {
   height: 4px;
   background: #b00011;
+  border-radius: 10px;
 }
 
 .cat-col-1 {
