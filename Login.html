@@ -33,39 +33,40 @@
 </head>
 
 <body>
-    <div class="container cart-container mt-5 bg-light">
-        <div class="d-flex justify-content-between align-items-center">
-            <h3>Shopping Cart</h3><button class="btn btn-danger btn-sm remove-all-btn" type="button" style="background: rgba(189,33,48,0.8);"><i class="far fa-window-close mr-1"></i>Remove All</button>
-        </div>
-        <hr>
-        <div class="shadow-sm d-flex justify-content-between mt-4 bg-white rounded cart-peoduct-div mb-3">
-            <div class="d-flex align-items-center"><i class="fas fa-window-close font-weight-bold shadow-sm mr-2 text-danger product-close"></i><img class="img-thumbnail img-fluid shadow-sm cart-product-img" src="assets/img/img4-min.jpg"></div>
-            <div class="d-flex flex-column justify-content-center flex-wrap cart-product-name-div">
-                <p class="text-uppercase mb-0 ml-2 text-black-50 cart-product-code">product code</p>
-                <h6 class="ml-2 cart-product-heading">Product Name</h6>
-            </div>
-            <div class="d-flex justify-content-center align-items-center mr-3">
-                <p class="font-weight-bold p-2 text-black-50"><i class="fas fa-minus-circle"></i></p>
-                <p class="font-weight-bold">1</p>
-                <p class="font-weight-bold p-2 text-black-50"><i class="fas fa-plus-circle"></i></p>
-            </div>
-            <div class="d-flex flex-column justify-content-center align-items-end mr-2">
-                <h5 class="font-weight-bold cart-product-price text-danger">LKR&nbsp;<span>999</span></h5>
-            </div>
-        </div>
-        <hr>
-        <div class="d-flex flex-column align-items-sm-center align-items-md-end p-3">
-            <div class="d-flex justify-content-end">
-                <div class="mr-2">
-                    <h6 class="text-left mb-0">Sub Total</h6>
-                    <p class="text-black-50 mb-0"><span>99</span>&nbsp;items</p>
+    <section class="position-relative py-4 py-xl-5">
+        <div class="container position-relative">
+            <div class="row mb-5">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h2 class="text-uppercase font-weight-bold">Log In</h2>
+                    <p class="w-lg-50">Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis nostra nunc. Vestibulum dui eget ultrices.</p>
                 </div>
-                <div>
-                    <h3>LKR&nbsp;<span>999</span></h3>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6 col-xl-4">
+                    <div class="card">
+                        <div class="card-body text-center shadow-sm d-flex flex-column align-items-center">
+                            <div class="bs-icon-xl bs-icon-circle bs-icon-primary bs-icon my-4"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-person">
+                                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"></path>
+                                </svg></div>
+                            <form method="post">
+                                <div class="mb-3"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+                                <div class="mb-3"><input class="form-control" type="password" name="password" placeholder="Password"></div>
+                                <div class="mb-3"><button class="btn btn-dark d-block w-100 button-color" type="submit">Log in</button></div>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <hr class="w-100">
+                                    <p class="m-0 ml-1 mr-1 text-black-50 w-100">Log with</p>
+                                    <hr class="w-100">
+                                </div>
+                                <div class="d-flex justify-content-around"><a class="text-decoration-none" href="#"><i class="fab fa-google text-dark"></i></a><a class="text-decoration-none" href="#"><i class="fab fa-facebook-f text-dark"></i></a><a class="text-decoration-none" href="#"><i class="fab fa-instagram text-dark"></i></a><a class="text-decoration-none" href="#"><i class="fab fa-twitter text-dark"></i></a></div><a href="/sign-up.html">
+                                    <p class="text-muted mt-4">New User? Signup here.</p>
+                                </a>
+                            </form>
+                        </div>
+                    </div>
                 </div>
-            </div><button class="btn btn-dark text-uppercase font-weight-bold shadow mt-4 checkout-btn" type="button">Checkout</button>
+            </div>
         </div>
-    </div>
+    </section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
