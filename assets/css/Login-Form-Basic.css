@@ -8,6 +8,7 @@
   width: calc(var(--bs-icon-size) * 2);
   height: calc(var(--bs-icon-size) * 2);
   color: var(--primary);
+  background: #542166;
 }
 
 .bs-icon-xs {
@@ -34,7 +35,6 @@
 
 .bs-icon.bs-icon-primary {
   color: var(--white);
-  background: #e85181;
 }
 
 .bs-icon.bs-icon-primary-light {
@@ -53,5 +53,48 @@
 
 .bs-icon.bs-icon-circle {
   border-radius: 50%;
+}
+
+@media (min-width: 1200px) {
+  .login-input {
+    width: 600px;
+    background: #dc35450d;
+    border-color: #ffffff;
+    height: 45px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .login-input {
+    background: #dc35450d;
+    border-color: #ffffff;
+    height: 45px;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 576px) {
+  .login-input {
+    background: #dc35450d;
+    border-color: #ffffff;
+    height: 45px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  .login-input {
+    width: 300px;
+    background: #dc35450d;
+    border-color: #ffffff;
+    height: 45px;
+    border-radius: 10px;
+  }
+}
+
+.card {
+  border-radius: 10px;
+  border: 2px dashed rgb(84,33,102) ;
 }
 
